@@ -126,7 +126,14 @@ while(score < passingScore){
   Check to see if changeMyMind is set to true or false, if it is true, change the status to false, if it is false, change the status to true.
 
 */
-
+let changemyMind = true;
+if(changemyMind===true){
+  changemyMind=false
+  console.log(changemyMind)
+}else{
+  changemyMind=true
+  console.log(changemyMind)
+}
 //CODE HERE
 
 ////////// PROBLEM 10 //////////
